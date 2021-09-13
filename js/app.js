@@ -1,17 +1,14 @@
-const imageArray = ['../images/royol1.jpg','../images/royal2.jpg','../images/royal3.jpg','../images/royal4.jpg'];
+const imageArray = ['../images/royol1.jpg','../images/royol2.jpg','../images/royol3.jpg','../images/royol4.jpg'];
 const container = document.querySelector('.container');
-
+console.log(container)
 
 let index = 0;
-
 function forward() {
     index++;
     if(index > imageArray.length-1) {
         index = 0;
     }
-    alert(imageArray[index])
-    container.style.backgroundImage = `url('${imageArray[index]}')`
-
+   container.style.backgroundImage = `url("${imageArray[index]}")`
 }
 
 function backward() {
@@ -19,8 +16,9 @@ function backward() {
     if(index < 0) {
         index = imageArray.length-1;
     }
-    container.style.backgroundImage = `url('${imageArray[index]}')`;
+    container.style.backgroundImage = `url("${imageArray[index]}")`;
 }
+forward()       //initial loads any one image
 
 
 

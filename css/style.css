@@ -11,7 +11,7 @@ html {
     height: 100vh;
 }
 .container {
-    background-image: url('../images/royol1.jpg');
+  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ html {
     height: 5rem;
     background-color: aliceblue;
     border-radius: 50%;
-    opacity: .4;
+    opacity: .7;
     cursor: pointer;
     transition: .4s;
     font-size: 2rem;
