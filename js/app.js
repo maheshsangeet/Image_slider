@@ -1,4 +1,4 @@
-const imageArray = ['../images/royol1.jpg','../images/royol2.jpg','../images/royol3.jpg','../images/royol4.jpg'];
+const imageArray = ['images/royol1.jpg','images/royol2.jpg','images/royol3.jpg','images/royol4.jpg'];
 const container = document.querySelector('.container');
 console.log(container)
 
